@@ -1,0 +1,11 @@
+# Pythonの一時ファイル
+__pycache__/
+*.py[cod]
+
+# 仮想環境（もし作るなら）
+venv/
+env/
+
+# 【重要】統計データを除外
+data/*.json
+data/*.csv
